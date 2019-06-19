@@ -1,0 +1,47 @@
+@import "./../node_modules/bootstrap-css-only/css/bootstrap.css";
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ border:2px;
+}
+#player_wrapper
+{
+ position:relative;
+ width:600px;
+ border:0px;
+}
+#video_player
+{
+ width:600px;
+}
+#player_controls
+{
+ position:absolute;
+ background-color:black;
+ padding:5px;
+ width:600px;
+ box-sizing:border-box;
+}
+#likeDiv{
+	color:blue;
+	font-size: 15px;
+	font-weight: bold;
+}
+#unlikeDiv{
+	color:red;
+	font-size: 15px;
+	font-weight: bold;
+}
+#playlist {
+    display:table;
+}
+#playlist li{
+    cursor:pointer;
+    padding:8px;
+}
+
+#playlist li:hover{
+    color:blue;                        
+}
